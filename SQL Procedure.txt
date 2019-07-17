@@ -1,0 +1,7 @@
+To create a sql procedure:
+
+delimiter// (it changes the dilimiter from ; to //)
+create procedure procedure_name(In x int, In y varchar(50))
+begin
+insert into table_name(x,y);
+end//
